@@ -69,7 +69,7 @@ export class News extends Component {
   render() {
     return (
       <div className="container mx-2 my-2">
-        <h2>
+        <h2 style={{marginTop: '60px'}}>
           <center>News Headline from {this.props.category} </center>{" "}
         </h2>
 
